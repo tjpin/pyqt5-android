@@ -1,0 +1,26 @@
+version = 0
+sysroot = ""
+sysroots_dir = ""
+parts = [ "Python:ssl", "Python:sysconfig", "Python:zlib", "Python:importlib.resources", "PyQt:PyQt6.QtWidgets", "PyQtPurchasing:PyQt6.QtPurchasing", "PyQtDataVisualization:PyQt6.QtDataVisualization", "QScintilla:PyQt6.Qsci", "PyQtChart:PyQt6.QtChart", "PyQt3D:PyQt6.Qt3DCore", "PyQt:PyQt6.QtNetwork", "PyQt:PyQt6.QtAndroidExtras", "PyQt:PyQt6.QtX11Extras", "PyQt:PyQt6.QtWinExtras", "PyQt:PyQt6.QtMacExtras", "PyQtNetworkAuth:PyQt6.QtNetworkAuth",]
+
+[Application]
+entry_point = ""
+is_console = false
+is_bundle = false
+name = ""
+qmake_configuration = ""
+script = "pyqt-demo.py"
+syspath = ""
+
+[Application.Package]
+name = "data"
+exclude = [ "*.pyc", "*.pyd", "*.pyo", "*.pyx", "*.pxi", "__pycache__", "*-info", "EGG_INFO", "*.so",]
+[[Application.Package.Content]]
+name = "__init__.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "pyqt-demo.py.dat"
+included = true
+is_directory = false

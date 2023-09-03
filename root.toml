@@ -1,0 +1,48 @@
+# A skeleton sysroot specification file.
+
+
+[libffi]
+version = "0.0.0"
+
+[OpenSSL]
+version = "0.0.0"
+
+[Python]
+version = "0.0.0"
+
+[PyQt]
+version = "0.0.0"
+installed_modules = []
+
+[PyQt3D]
+version = "0.0.0"
+
+[PyQtChart]
+version = "0.0.0"
+
+[PyQtDataVisualization]
+version = "0.0.0"
+
+[PyQtNetworkAuth]
+version = "0.0.0"
+
+[PyQtPurchasing]
+version = "0.0.0"
+
+[PyQtWebEngine]
+version = "0.0.0"
+
+[QScintilla]
+version = "0.0.0"
+
+[Qt]
+version = "0.0.0"
+
+[SIP]
+abi_major_version = 12
+module_name = "PyQt5.sip"
+
+[zlib]
+version = "0.0.0"
+
+# pyqtdeploy-sysroot --options root.toml
